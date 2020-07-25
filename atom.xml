@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Cavinpho</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-07-14T14:26:53.957Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>cavin song</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>人间烟火气 最抚凡人心</title>
+    <link href="http://yoursite.com/2020/07/14/%E4%BA%BA%E9%97%B4%E7%83%9F%E7%81%AB%E6%B0%94-%E6%9C%80%E6%8A%9A%E5%87%A1%E4%BA%BA%E5%BF%83/"/>
+    <id>http://yoursite.com/2020/07/14/%E4%BA%BA%E9%97%B4%E7%83%9F%E7%81%AB%E6%B0%94-%E6%9C%80%E6%8A%9A%E5%87%A1%E4%BA%BA%E5%BF%83/</id>
+    <published>2020-07-14T14:04:08.000Z</published>
+    <updated>2020-07-14T14:26:53.957Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="杂记" scheme="http://yoursite.com/categories/%E6%9D%82%E8%AE%B0/"/>
+    
+    
+      <category term="life" scheme="http://yoursite.com/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AR学习资料</title>
+    <link href="http://yoursite.com/2020/07/13/AR%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/"/>
+    <id>http://yoursite.com/2020/07/13/AR%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/</id>
+    <published>2020-07-13T15:22:07.000Z</published>
+    <updated>2020-07-14T14:27:31.435Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://github.com/eseedo/AR-VRCourse/tree/master/UE4%20AR:VR%20Course" target="_blank" rel="noopener" title=" ">虚幻4引擎学习</a><br><a href="https://github.com/eseedo/AR-VRCourse/tree/master/Unity%20AR:VR%20Course" target="_blank" rel="noopener">Unity引擎学习</a><br><a href="https://zhuanlan.zhihu.com/p/19711144" target="_blank" rel="noopener">一个iOS开发者的修真之路-知乎</a></p><p align="right"> 2020.7.13 </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://github.com/eseedo/AR-VRCourse/tree/master/UE4%20AR:VR%20Course&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot; title=&quot; &quot;&gt;虚幻4引擎学习&lt;/a&gt;&lt;br&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="AR" scheme="http://yoursite.com/tags/AR/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>地图美学/Map Aesthetics</title>
+    <link href="http://yoursite.com/2020/05/28/%E5%9C%B0%E5%9B%BE%E7%BE%8E%E5%AD%A6-Map-Aesthetics/"/>
+    <id>http://yoursite.com/2020/05/28/%E5%9C%B0%E5%9B%BE%E7%BE%8E%E5%AD%A6-Map-Aesthetics/</id>
+    <published>2020-05-27T16:38:16.000Z</published>
+    <updated>2020-07-14T14:26:27.039Z</updated>
+    
+    <content type="html"><![CDATA[<p>地图之美，多有人体会到，少有人来写。<br>/MapBox</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;地图之美，多有人体会到，少有人来写。&lt;br&gt;/MapBox&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="http://yoursite.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="ArcGIS" scheme="http://yoursite.com/tags/ArcGIS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DUSPviz随记</title>
+    <link href="http://yoursite.com/2020/05/26/DUSPviz%E9%9A%8F%E8%AE%B0/"/>
+    <id>http://yoursite.com/2020/05/26/DUSPviz%E9%9A%8F%E8%AE%B0/</id>
+    <published>2020-05-26T06:58:03.000Z</published>
+    <updated>2020-07-14T14:21:56.492Z</updated>
+    
+    <content type="html"><![CDATA[<p>DUSPviz</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;DUSPviz&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="杂记" scheme="http://yoursite.com/categories/%E6%9D%82%E8%AE%B0/"/>
+    
+    
+      <category term="DUSPviz" scheme="http://yoursite.com/tags/DUSPviz/"/>
+    
+      <category term="ArcGIS" scheme="http://yoursite.com/tags/ArcGIS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>银字笙调，奈何凌冬</title>
+    <link href="http://yoursite.com/2020/01/25/%E9%93%B6%E5%AD%97%E7%AC%99%E8%B0%83%EF%BC%8C%E5%A5%88%E4%BD%95%E5%87%8C%E5%86%AC/"/>
+    <id>http://yoursite.com/2020/01/25/%E9%93%B6%E5%AD%97%E7%AC%99%E8%B0%83%EF%BC%8C%E5%A5%88%E4%BD%95%E5%87%8C%E5%86%AC/</id>
+    <published>2020-01-24T16:18:32.000Z</published>
+    <updated>2020-05-28T09:55:55.854Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="银字笙调"><a href="#银字笙调" class="headerlink" title="银字笙调"></a>银字笙调</h3><p>匆匆忙忙，慌慌张张迈进了庚子年的大门，当每个人都在试探着，伸出触角触摸着新年伊始的同时，地狱之门的铡刀使者初露狰狞。<br>新型冠状病毒传播以来，方才感受到传染病引发的社会恐慌和精神压力，原来长大后我也是一个理性与感性交织的孩子，生理年龄增长不仅是我自己穿戴上铠甲，也长出了软肋</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;银字笙调&quot;&gt;&lt;a href=&quot;#银字笙调&quot; class=&quot;headerlink&quot; title=&quot;银字笙调&quot;&gt;&lt;/a&gt;银字笙调&lt;/h3&gt;&lt;p&gt;匆匆忙忙，慌慌张张迈进了庚子年的大门，当每个人都在试探着，伸出触角触摸着新年伊始的同时，地狱之门的铡刀使者初露狰狞。&lt;br&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="杂记" scheme="http://yoursite.com/categories/%E6%9D%82%E8%AE%B0/"/>
+    
+    
+      <category term="new year" scheme="http://yoursite.com/tags/new-year/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>锁麟囊</title>
+    <link href="http://yoursite.com/2020/01/23/%E9%94%81%E9%BA%9F%E5%9B%8A/"/>
+    <id>http://yoursite.com/2020/01/23/%E9%94%81%E9%BA%9F%E5%9B%8A/</id>
+    <published>2020-01-23T15:14:31.000Z</published>
+    <updated>2020-02-22T08:39:42.825Z</updated>
+    
+    <content type="html"><![CDATA[<p>他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。<br>[他]：老天爷</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。&lt;br&gt;[他]：老天爷&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="杂记" scheme="http://yoursite.com/categories/%E6%9D%82%E8%AE%B0/"/>
+    
+    
+      <category term="life" scheme="http://yoursite.com/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>还有织满九万里的蠢蠢欲动</title>
+    <link href="http://yoursite.com/2020/01/22/%E8%BF%98%E6%9C%89%E7%BB%87%E6%BB%A1%E4%B9%9D%E4%B8%87%E9%87%8C%E7%9A%84%E8%A0%A2%E8%A0%A2%E6%AC%B2%E5%8A%A8/"/>
+    <id>http://yoursite.com/2020/01/22/%E8%BF%98%E6%9C%89%E7%BB%87%E6%BB%A1%E4%B9%9D%E4%B8%87%E9%87%8C%E7%9A%84%E8%A0%A2%E8%A0%A2%E6%AC%B2%E5%8A%A8/</id>
+    <published>2020-01-22T14:33:11.000Z</published>
+    <updated>2020-05-28T09:53:20.750Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="未尽半生，周身沧桑便在雪花掩月的夜晚，巨细靡遗地显现我所经历地风霜，并未被年纪栓塞，亦不为其所衡量，你懂我，便懂我地一切，无需多言。"><a href="#未尽半生，周身沧桑便在雪花掩月的夜晚，巨细靡遗地显现我所经历地风霜，并未被年纪栓塞，亦不为其所衡量，你懂我，便懂我地一切，无需多言。" class="headerlink" title="未尽半生，周身沧桑便在雪花掩月的夜晚，巨细靡遗地显现我所经历地风霜，并未被年纪栓塞，亦不为其所衡量，你懂我，便懂我地一切，无需多言。"></a>未尽半生，周身沧桑便在雪花掩月的夜晚，巨细靡遗地显现我所经历地风霜，并未被年纪栓塞，亦不为其所衡量，你懂我，便懂我地一切，无需多言。</h2><p><a href="https://500px.me/cavinpho" target="_blank" rel="noopener" title="my photos">500px</a></p></center> <!--结束居中对齐-->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;未尽半生，周身沧桑便在雪花掩月的夜晚，巨细靡遗地显现我所经历地风霜，并未被年纪栓塞，亦不为其所衡量，你懂我，便懂我地一切，无需多言。&quot;&gt;&lt;a href=&quot;#未尽半生，周身沧桑便在雪花掩月的夜晚，巨细靡遗地显现我所经历地风霜，并未被年纪栓塞，亦不为其所衡量，你懂我，
+      
+    
+    </summary>
+    
+    
+      <category term="杂记" scheme="http://yoursite.com/categories/%E6%9D%82%E8%AE%B0/"/>
+    
+    
+      <category term="life" scheme="http://yoursite.com/tags/life/"/>
+    
+  </entry>
+  
+</feed>
