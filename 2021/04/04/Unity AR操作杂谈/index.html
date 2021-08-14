@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="zh-Hans"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><meta name="description" content="UnityAR操作杂谈 [ Kevinpho ] "><meta name="theme-color" content="#ebc65a"><title>UnityAR操作杂谈 [ Kevinpho ] </title><link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/index.css"><script src="https://cdn.bootcss.com/highlight.js/9.6.0/highlight.min.js" defer></script><script src="/js/paper.js" defer></script><script src="https://www.googletagmanager.com/gtag/js?id=xx-xxxxxxx-xx" async></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'xx-xxxxxxx-xx');</script><script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js" defer></script><script>window.addEventListener('DOMContentLoaded', () => {
+  tocbot.init({
+    // Where to render the table of contents.
+    tocSelector: '.toc__content',
+    // Where to grab the headings to build the table of contents.
+    contentSelector: '.article__content',
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    // For headings inside relative or absolute positioned containers within content.
+    hasInnerContainers: true,
+    orderedList: false,
+    collapseDepth: 2,
+  });
+})</script><link rel="preload" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css"><link rel="preload" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap"><link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css"><meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="Kevinpho" type="application/atom+xml">
+</head><body><div class="mask-border"></div><div class="head"><div class="head__inner"><h1><a href="/">Kevinpho</a></h1><p></p></div></div><div class="paper-container"><div class="main"><div class="location-bar"><div class="line-1"><div class="horizontal-line" style="height: 3px"></div></div><div class="line-2"><div class="horizontal-line" style="height: 1px"></div></div><p class="text">UnityAR操作杂谈</p><div class="switch-button"><input class="container_toggle" type="checkbox" id="switch" name="mode"><label for="switch">Toggle</label></div><div class="line-3"><div class="horizontal-line" style="height: 1px"></div></div></div><div class="main__2-col"><article class="post-view__article"><div class="article__infomation"><div class="posts-item"><h2 class="posts-item__title"><a href="">UnityAR操作杂谈</a></h2><span class="post__date">2021-04-04</span><a href="/tags/AR/"><span class="post__tags">#AR</span></a></div></div><div class="article__content"><p>Q&amp;A<br>Q：为什么要开发<code>AR app</code>？<br>A：导师手里的两个项目，其中之一完成度比较高，另一个仅仅只有一个题目，便是我现在做的AR项目。<br>拿到两个项目的时候，给了自己一晚上的思考时间。心想：如果可以在大学期间可以独立完成一个app开发，也算是给自己一个交待。于是便有了现在独属于我的app。</p>
+<p><strong>杂记嘛</strong>，也不知道什么时候想起来就更新一哈，记录个中琐碎事。</p>
+<hr>
+<h3 id="一、先前准备"><a href="#一、先前准备" class="headerlink" title="一、先前准备"></a>一、先前准备</h3><p>在<a href="https://unity.cn" target="_blank" rel="noopener">Unity官网</a>注册学生账号。<br><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo/unity1.png" alt="unity1"><br>下载Unity客户端，在PC端打开，安装最新版的长期支持版本（LTS）。<br><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo/unity2.png" alt="unity2"><br>安装与项目相对应的iOS、Android等相应模块。<br><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo/unity3.png" alt="unity3"></p>
+<h3 id="二、Unity相关模块"><a href="#二、Unity相关模块" class="headerlink" title="二、Unity相关模块"></a>二、Unity相关模块</h3><p>构建AR识别物：访问<a href="https://developer.vuforia.com" target="_blank" rel="noopener">Vuforia官网</a>。<br><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo/unity4.png" alt="unity4"><br>上传识别物图片，生成Unity资源包。<br><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo/unity5.png" alt="unity5"></p>
+<blockquote>
+<p><em>Unity2020新版本更新后，无法完成 Unity客户端的 Package Manager中直接安装 Vuforia模块，需重新在 Vuforia官网下载 Vuforia包来本地导入 Vuforia Engine。</em></p>
+</blockquote>
+<h3 id="三、AR基本框架"><a href="#三、AR基本框架" class="headerlink" title="三、AR基本框架"></a>三、AR基本框架</h3><p>新建3D（或AR）项目，切换指定平台，Build Settings $\rightarrow$ iOS/Android/PC $\rightarrow$ Switch Platform。<br>导入Vuforia包，设置AR Camera密钥，导入Unity资源包，在ImageTarget下构建AR图像。</p>
+<blockquote>
+<p><em>新版本 Vuforia Engine，系统无法自动更新本地导入的 database，需要在 ARCamera中手动选择导入的 database。</em></p>
+</blockquote>
+<h3 id="四、AR模块优化"><a href="#四、AR模块优化" class="headerlink" title="四、AR模块优化"></a>四、AR模块优化</h3><p>在Sketchup中导出.fbx类型的三维图像。<br>将导出的三维图像导入Unity资源库中，并拖入ImageTarget组下。运行查看AR效果。</p>
+<h3 id="五、关于Unity基本操作"><a href="#五、关于Unity基本操作" class="headerlink" title="五、关于Unity基本操作"></a>五、关于Unity基本操作</h3><p>打包生成项目文件，Build Settings $\rightarrow$ Build<br>在ImageTarget基础上利用Button、Slider等其他控件构建相对应相应事件，或者完成场景（Scenes）的切换，</p>
+<h3 id="六、软件使用"><a href="#六、软件使用" class="headerlink" title="六、软件使用"></a>六、软件使用</h3><p>通过软件应用商店搜索软件名，下载安装软件。</p>
+<p>在B站Unity官方号，M_studio等观看</p>
+<p>调用相关接口，详见<a href="https://docs.unity3d.com/cn/2019.4/Manual/UnityManual.html" target="_blank" rel="noopener">用户手册</a></p>
+<h3 id="七、TODO"><a href="#七、TODO" class="headerlink" title="七、TODO"></a>七、TODO</h3><ul>
+<li><input disabled="" type="checkbox"> 使用URP实现渲染管线的添加</li>
+<li><input disabled="" type="checkbox"> 制作AR RPG校园</li>
+<li><input disabled="" type="checkbox"> 如何实现多机型的适配</li>
+<li></li>
+</ul>
+</div></article><div class="post-view__sidebar"><div class="sidebar"><div class="tocbot"><h2>Toc</h2><div class="toc__content"></div></div><h2>Links</h2><div class="sidebar__link"><ul><li><a href="https://github.com/songcavin" target="_blank" rel="noopener">Github</a></li><li><a href="https://500px.com.cn/Kevinpho" target="_blank" rel="noopener">500px</a></li><li><a href="mailto:daidaoxiaokeai@gmail.xxxx">Email</a></li></ul></div><h2>Archives</h2><div class="sidebar__archives"><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/">2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a></li></ul></div><h2>Tags</h2><div class="sidebar__tags"><ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/AR/" rel="tag">AR</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MINOLTA/" rel="tag">MINOLTA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/iPhone8/" rel="tag">iPhone8</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%AF%95%E4%B8%9A/" rel="tag">毕业</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%9F%E6%B4%BB/" rel="tag">生活</a></li></ul></div></div></div></div><div class="horizontal-line" style="height: 1px"></div><div class="main__bottom"><div class="pre-next"><a class="pre-button" href="/2021/04/06/%E6%97%B6%E5%90%8C%E5%AD%A6%E7%9A%84%E5%8D%97%E4%BA%AC%E8%AE%B0%E5%BD%95/">时同学的南京记录</a><a class="next-button" href="/2020/07/13/AR%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/">AR学习资料</a></div></div></div></div><div class="footer"><span>©️2019-2021 Designed By&nbsp;<strong><a href="https://github.com/random-yang" target="_blank" rel="noopener">RandomYang</a></strong> Powered By&nbsp;</span><strong><a href="https://hexo.io" target="_blank" rel="noopener">hexo</a></strong></div><div class="darkmode-mask" id="darkmode-mask"></div><div class="sidebar__button"></div></body></html>
