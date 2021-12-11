@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2021-11-27T15:02:54.498Z</updated>
+  <updated>2021-12-11T06:14:44.842Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,13 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>一些Mac使用小技巧</title>
+    <link href="http://yoursite.com/2021/12/11/%E4%B8%80%E4%BA%9BMac%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    <id>http://yoursite.com/2021/12/11/%E4%B8%80%E4%BA%9BMac%E4%BD%BF%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7/</id>
+    <published>2021-12-11T04:17:03.000Z</published>
+    <updated>2021-12-11T06:14:44.842Z</updated>
+    
+    <content type="html"><![CDATA[<p>🌟⇒推荐且非常提高效率的tips</p><p>❌⇒不那么好用</p><h1 id="Day1"><a href="#Day1" class="headerlink" title="Day1"></a>Day1</h1><h2 id="软件界面相关"><a href="#软件界面相关" class="headerlink" title="软件界面相关"></a>软件界面相关</h2><ul><li><p>Command+Q 系统完全退出</p></li><li><p>Command+W 关闭（但是后台仍运行，Command+Tab切换时需要再按Option⇒及其反人类，❌不推荐）（当然有特殊情况，在浏览器使用时可以使用，到时候再说）</p></li><li><p>Command+H 隐藏（🌟⇒最推荐的方式）</p></li><li><p>Command+M 最小化到Dock栏（即：底部那一溜儿）</p></li><li><p>Command+N重新开一个相同的软件页面（非常好用，比如要查询两个项目的东西，可以新开一个Safari）⇒</p><p>  Q：如何切换俩相同的软件页面嘞⇒</p><p>  A：Command+～（～：就是键盘左上角的esc👇的那个）</p></li><li><p>多个应用分屏⇒鼠标放到绿色（即：全屏辣个按钮）不需要点它，然后将该窗口放到左侧活右侧即可，至于另一个窗口放啥，聪明的你嘞肯定就会了</p></li></ul><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hero_macuse/fullscreen.png" alt="Untitled"></p><hr><p>分割线下⇒用的不多</p><ul><li>Control+Command+F 全屏/非全屏切换</li></ul><h1 id="Day2"><a href="#Day2" class="headerlink" title="Day2"></a>Day2</h1><h2 id="系统手势"><a href="#系统手势" class="headerlink" title="系统手势"></a>系统手势</h2><ul><li><p>三指拖拽</p></li><li><p>手指往手心抓⇒打开启动台（即：找软件）</p><p>  Q：如何关闭嘞？</p><p>  A：手指张开⇒关闭启动台</p></li><li><p>Q：在电脑界面如何快速查看桌面的东西嘞？</p><p>  A：手指往手心抓⇒节目都分散到周围（原来的界面出现⇒手指张开）🌟</p></li><li><p>四个手指往上滑⇒查看界面全部打开的软件（后台运行不算）</p><p>  往下滑⇒返回</p></li><li><p>四个手指左右滑⇒切换多个桌面/全屏后的界面</p></li></ul><h2 id="系统截图-录屏"><a href="#系统截图-录屏" class="headerlink" title="系统截图/录屏"></a>系统截图/录屏</h2><ul><li><p>Command+Shift+4 拖拽截屏</p></li><li><p>Command+Shift+5 好多功能 🌟</p><p>  <img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hero_macuse/screenshot.JPG" alt="IMG_2182.JPG"></p><ol><li><p>左数仨⇒都是截屏</p><p> 中间的⇒捕捉所选窗口：它会自动帮你处理成加了阴影和背景（背景颜色与系统day /night有关）的截图→还蛮有意思的 🌟</p></li><li><p>分割线右边、选项左边，这俩⇒都是录屏</p><p> 录制结束按钮在触控条上有，比在任务栏（即：屏幕最上面那一遛儿）上按方便多了</p><p> ⚠️：这些录屏都么得声音，要不就是设置成Background music才可以，但是那样自己又听不到声音，不明白它这个逻辑，暂时没有找到好用的录屏软件，<code>努力填坑ing</code></p></li><li><p>选项中常用</p><p> 存储→桌面：截屏后直接保存到桌面</p><p> 存储→剪贴板：直接Command+V到微信or文档等等</p></li></ol></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;🌟⇒推荐且非常提高效率的tips&lt;/p&gt;
+&lt;p&gt;❌⇒不那么好用&lt;/p&gt;
+&lt;h1 id=&quot;Day1&quot;&gt;&lt;a href=&quot;#Day1&quot; class=&quot;headerlink&quot; title=&quot;Day1&quot;&gt;&lt;/a&gt;Day1&lt;/h1&gt;&lt;h2 id=&quot;软件界面相关&quot;&gt;&lt;a href=&quot;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Mac tips" scheme="http://yoursite.com/tags/Mac-tips/"/>
+    
+  </entry>
+  
+  <entry>
     <title>镜头后的故事/Behind The Camera</title>
     <link href="http://yoursite.com/2021/08/01/%E9%95%9C%E5%A4%B4%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B/"/>
     <id>http://yoursite.com/2021/08/01/%E9%95%9C%E5%A4%B4%E5%90%8E%E7%9A%84%E6%95%85%E4%BA%8B/</id>
     <published>2021-08-01T14:38:25.000Z</published>
-    <updated>2021-11-27T15:02:54.498Z</updated>
+    <updated>2021-12-11T06:33:58.926Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="柯达200"><a href="#柯达200" class="headerlink" title="柯达200"></a>柯达200</h4><table><thead><tr><th align="center">发布日期</th><th align="center">底片</th><th align="center">ISO</th><th align="center">冲印</th><th align="center">详细</th><th align="center">国家</th></tr></thead><tbody><tr><td align="center">1997-</td><td align="center">T</td><td align="center">200</td><td align="center">C-41</td><td align="center">通用消费类彩色胶片 (GB)。 Kodacolor Gold 胶片于 1988 年推出。Kodak Gold 于 1997 年推出，目前 v7，2007 年推出。</td><td align="center">USA</td></tr></tbody></table><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_model.png" alt="model"><br>店内售卖的木板积木，积木的翅膀是小电机驱动，有种中世纪机械鸟的科幻感。</p><p align='right'>「坐标：南京仙林金鹰星巴克」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_haidilao.png" alt="haidilao"><br>一天傍晚在天台帮忙约拍结束后，去吃海底捞干饭，之后就有了吃饭太快服务员以为没有上饭的故事。</p><p align='right'>「坐标：南京仙林海底捞九霄梦天地店」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_mapping.png" alt="mapping"><br>大三时的第一次GPS户外测量，太阳底下收集数据等了约1h，像我这样的阳光男孩怎么可能玩手机呢-:)噗哈哈哈，当然后面杂七杂八的数据处理才是梦魇。</p><p align='right'>「坐标：南京邮电大学行政楼北路口」</p><h4 id="柯达TRI-X-400"><a href="#柯达TRI-X-400" class="headerlink" title="柯达TRI-X 400"></a>柯达TRI-X 400</h4><table><thead><tr><th align="center">发布日期</th><th align="center">底片</th><th align="center">ISO</th><th align="center">冲印</th><th align="center">详细</th><th align="center">国家</th></tr></thead><tbody><tr><td align="center">1940-/1954-</td><td align="center">T/P</td><td align="center">320/400</td><td align="center">B&amp;W</td><td align="center">具有高对比度的传统颗粒的全色胶片，在2007年重新设计，具有更细的颗粒。经典的摄影胶片。*135/120 ISO 400 三醋酸酯基(TX)；片状薄膜聚酯基材 ISO 320(TXP)4x5”、5x7”和8x10”。</td><td align="center">USA    135, 120, Sheet film</td></tr></tbody></table><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_eave.png" alt="eave"><br>在我第n次去夫子庙的一个角角里发现的一个小店，小店天井上的瓦片花纹格外漂亮。</p><p align='right'>「坐标：南京老门东一小院天井」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_gulou.png" alt="gulou"><br>去洗胶卷路上随拍，正值下班高峰，颇有几分人烟味，南京的冬天真冷。</p><p align='right'>「坐标：南京鼓楼区」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_to_the_sun.png" alt="to_the_sun"><br>上午参加完2019年江苏省测绘地理信息学术年会，完事后，一溜烟儿的跑去参观别人家的学校，感受艺术的熏陶。（希望21年以优秀论文作者的身份去参加年会）</p><p align='right'>「坐标：南京艺术学院」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_anti_war.png" alt="anti_war"><br>我清晰地记得这个手指指割下用来扣动的食指，寓意反战。长廊拍出的原图就很棒，这个视角基本算是快趴在地上了，有块显示屏就舒服多了。</p><p align='right'>「坐标：南京艺术学院美术馆」</p><h3 id="柯达Pro-Image-100"><a href="#柯达Pro-Image-100" class="headerlink" title="柯达Pro Image 100"></a>柯达Pro Image 100</h3><table><thead><tr><th align="center">发布日期</th><th align="center">底片</th><th align="center">ISO</th><th align="center">冲印</th><th align="center">详细</th><th align="center">国家</th></tr></thead><tbody><tr><td align="center">1997-</td><td align="center">T</td><td align="center">E.I 100*</td><td align="center">C-41</td><td align="center">廉价版“专业”彩色胶片，具有中性肤色，适用于人像、婚礼和社交活动。 E.I.100胶片(ISO约160)，适用于气候炎热的地区(拉丁美洲和东南亚)，无需冷藏并可以使用柯达金配置冲印。柯达分别于2018年发布欧洲发行版和2019年北美官方发行版。</td><td align="center">USA</td></tr></tbody></table><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_downtown.png" alt="downtown"><br>果树、小山丘、山下河水，承载了一部分的童年时光，崖前的枣树、野蛮生长的南瓜、酸中带甜的野枸杞、挖坑焖熟的烤地瓜，儿时的记忆无不暗示我是个吃货。</p><p align='right'>「坐标：回屯儿路上」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_chimney.png" alt="chimney"><br>整齐的红砖瓦房，小时候的快乐源泉。</p><p align='right'>「坐标：乡村小屋」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_sewing_machine.png" alt="sewing_machine"><br>组织语言～</p><p align='right'>「坐标：窗边」</p><h3 id="iPhone8"><a href="#iPhone8" class="headerlink" title="iPhone8"></a>iPhone8</h3><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_balcony.png" alt="balcony"><br>疫情期间，午觉睡醒，日光洒进窗户，感觉阳台的风景很不错，拿相机感觉麻烦就直接拿出手机拍，不一会光线便淡了。</p><p align='right'>「坐标：阳台」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_Muslim.png" alt="Muslim"><br>第一次跟兄弟去章云板鸭店买鸭子，路过小巷看到残旧的清真小店，不曾想旁边就开着李记清真馆「牛肉锅贴真的很赞」。</p><p align='right'>「坐标：章云板鸭旁」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_cowboy.png" alt="cowboy"><br>牛仔男孩简笔画。</p><p align='right'>「坐标：图书馆摸鱼时」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_Suzhou.png" alt="Suzhou"><br>去园林的路上，被炸雷和暴雨困在路边亭子里，记录下了雨中的苏州小码头，有江南烟雨的味道了。</p><p align='right'>「坐标：苏州」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_pop.png" alt="pop"><br>波普我的艺术启蒙</p><p align='right'>「坐标：武康路」</p><h3 id="Nikon-Z5"><a href="#Nikon-Z5" class="headerlink" title="Nikon Z5"></a>Nikon Z5</h3><p><code>努力攒钱ing～</code></p><h3 id="Nikon-D7000"><a href="#Nikon-D7000" class="headerlink" title="Nikon D7000"></a>Nikon D7000</h3><p><code>近期努力填坑～</code></p>]]></content>
+    <content type="html"><![CDATA[<h4 id="柯达200"><a href="#柯达200" class="headerlink" title="柯达200"></a>柯达200</h4><table><thead><tr><th align="center">发布日期</th><th align="center">底片</th><th align="center">ISO</th><th align="center">冲印</th><th align="center">详细</th><th align="center">国家</th></tr></thead><tbody><tr><td align="center">1997-</td><td align="center">T</td><td align="center">200</td><td align="center">C-41</td><td align="center">通用消费类彩色胶片 (GB)。 Kodacolor Gold 胶片于 1988 年推出。Kodak Gold 于 1997 年推出，目前 v7，2007 年推出。</td><td align="center">USA</td></tr></tbody></table><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_model.png" alt="model"><br>店内售卖的木板积木，积木的翅膀是小电机驱动，有种《围攻》里中世纪机械鸟的即视感。</p><p align='right'>「坐标：南京仙林金鹰星巴克」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_haidilao.png" alt="haidilao"><br>一天傍晚在天台帮忙约拍结束后，去吃海底捞干饭，之后就有了吃饭太快服务员以为没有上米饭的故事。</p><p align='right'>「坐标：南京仙林海底捞九霄梦天地店」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_mapping.png" alt="mapping"><br>大三时的第一次GPS户外测量，太阳底下收集数据等了约1h，噗哈哈哈，当然后面杂七杂八的数据处理才是梦魇。</p><p align='right'>「坐标：南京邮电大学行政楼北路口」</p><h4 id="柯达TRI-X-400"><a href="#柯达TRI-X-400" class="headerlink" title="柯达TRI-X 400"></a>柯达TRI-X 400</h4><table><thead><tr><th align="center">发布日期</th><th align="center">底片</th><th align="center">ISO</th><th align="center">冲印</th><th align="center">详细</th><th align="center">国家</th></tr></thead><tbody><tr><td align="center">1940-/1954-</td><td align="center">T/P</td><td align="center">320/400</td><td align="center">B&amp;W</td><td align="center">具有高对比度的传统颗粒的全色胶片，在2007年重新设计，具有更细的颗粒。经典的摄影胶片。*135/120 ISO 400 三醋酸酯基(TX)；片状薄膜聚酯基材 ISO 320(TXP)4x5”、5x7”和8x10”。</td><td align="center">USA    135, 120, Sheet film</td></tr></tbody></table><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_eave.png" alt="eave"><br>在我第n次去夫子庙的一个角角里发现的一个小店，小店天井上的瓦片花纹格外漂亮。</p><p align='right'>「坐标：南京老门东一小院天井」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_gulou.png" alt="gulou"><br>去洗胶卷路上随拍，正值下班高峰，颇有几分人烟味，南京的冬天真冷。</p><p align='right'>「坐标：南京鼓楼区」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_to_the_sun.png" alt="to_the_sun"><br>上午参加完2019年江苏省测绘地理信息学术年会，完事后，一溜烟儿的跑去参观别人家的学校，感受艺术的熏陶。（希望21年以优秀论文作者的身份去参加年会→已经评上了，但是年会至今么得消息）</p><p align='right'>「坐标：南京艺术学院」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_anti_war.png" alt="anti_war"><br>我清晰地记得这个手指指割下用来扣动的食指，寓意反战。长廊拍出的原图就很棒，这个视角基本算是快趴在地上了，有块显示屏就舒服多了。</p><p align='right'>「坐标：南京艺术学院美术馆」</p><h3 id="柯达Pro-Image-100"><a href="#柯达Pro-Image-100" class="headerlink" title="柯达Pro Image 100"></a>柯达Pro Image 100</h3><table><thead><tr><th align="center">发布日期</th><th align="center">底片</th><th align="center">ISO</th><th align="center">冲印</th><th align="center">详细</th><th align="center">国家</th></tr></thead><tbody><tr><td align="center">1997-</td><td align="center">T</td><td align="center">E.I 100*</td><td align="center">C-41</td><td align="center">廉价版“专业”彩色胶片，具有中性肤色，适用于人像、婚礼和社交活动。 E.I.100胶片(ISO约160)，适用于气候炎热的地区(拉丁美洲和东南亚)，无需冷藏并可以使用柯达金配置冲印。柯达分别于2018年发布欧洲发行版和2019年北美官方发行版。</td><td align="center">USA</td></tr></tbody></table><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_downtown.png" alt="downtown"><br>果树、小山丘、山下河水，承载了一部分的童年时光，崖前的枣树、野蛮生长的南瓜、酸中带甜的野枸杞、挖坑焖熟的烤地瓜，儿时的记忆无不暗示我是个吃货。</p><p align='right'>「坐标：回屯儿路上」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_chimney.png" alt="chimney"><br>整齐的红砖瓦房，小时候的快乐源泉。</p><p align='right'>「坐标：乡村小屋」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_sewing_machine.png" alt="sewing_machine"><br>组织语言～</p><p align='right'>「坐标：窗边」</p><h3 id="iPhone8"><a href="#iPhone8" class="headerlink" title="iPhone8"></a>iPhone8</h3><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_balcony.png" alt="balcony"><br>疫情期间，午觉睡醒，日光洒进窗户，感觉阳台的风景很不错，拿相机感觉麻烦就直接拿出手机拍，不一会光线便淡了。</p><p align='right'>「坐标：阳台」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_Muslim.png" alt="Muslim"><br>第一次跟兄弟去章云板鸭店买鸭子，路过小巷看到残旧的清真小店，不曾想旁边就开着李记清真馆「牛肉锅贴真的很赞」。</p><p align='right'>「坐标：章云板鸭旁」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_cowboy.png" alt="cowboy"><br>牛仔男孩简笔画。</p><p align='right'>「坐标：图书馆摸鱼时」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_Suzhou.png" alt="Suzhou"><br>去园林的路上，被炸雷和暴雨困在路边亭子里，记录下了雨中的苏州小码头，有江南烟雨的味道了。</p><p align='right'>「坐标：苏州」</p><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_pop.png" alt="pop"><br>波普我的艺术启蒙</p><p align='right'>「坐标：武康路」</p><h3 id="Nikon-Z5"><a href="#Nikon-Z5" class="headerlink" title="Nikon Z5"></a>Nikon Z5</h3><p><code>攒钱ing～</code></p><h3 id="Nikon-D7000"><a href="#Nikon-D7000" class="headerlink" title="Nikon D7000"></a>Nikon D7000</h3><p><img src="https://hexo-kevin.oss-cn-beijing.aliyuncs.com/hexo_photo/photo/_pigeon.png" alt="pigeon"><br>一位不知名老伯在阁楼养的鸽子，机位超棒。</p><p align='right'>「坐标：上海外滩沙美大楼ZHotel餐厅阳台」</p><p><code>Continue</code></p>]]></content>
     
     <summary type="html">
     
@@ -46,6 +72,8 @@
     
       <category term="iPhone8" scheme="http://yoursite.com/tags/iPhone8/"/>
     
+      <category term="Nikon D7000" scheme="http://yoursite.com/tags/Nikon-D7000/"/>
+    
   </entry>
   
   <entry>
@@ -53,15 +81,13 @@
     <link href="http://yoursite.com/2021/06/30/%E6%88%91%E7%9A%84%E8%BF%99%E5%9B%9B%E5%B9%B4/"/>
     <id>http://yoursite.com/2021/06/30/%E6%88%91%E7%9A%84%E8%BF%99%E5%9B%9B%E5%B9%B4/</id>
     <published>2021-06-30T06:27:25.000Z</published>
-    <updated>2021-06-30T08:01:11.632Z</updated>
+    <updated>2021-12-11T06:05:50.091Z</updated>
     
     <summary type="html">
     
     </summary>
     
     
-    
-      <category term="毕业" scheme="http://yoursite.com/tags/%E6%AF%95%E4%B8%9A/"/>
     
   </entry>
   
