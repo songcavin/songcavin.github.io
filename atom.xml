@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2022-02-06T15:52:57.929Z</updated>
+  <updated>2022-02-19T14:09:00.020Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vue和Spring开发的tips</title>
+    <link href="http://yoursite.com/2022/02/17/Vue%E5%92%8CSpring%E5%BC%80%E5%8F%91%E7%9A%84tips/"/>
+    <id>http://yoursite.com/2022/02/17/Vue%E5%92%8CSpring%E5%BC%80%E5%8F%91%E7%9A%84tips/</id>
+    <published>2022-02-17T15:21:40.000Z</published>
+    <updated>2022-02-19T14:09:00.020Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h1><h2 id="axios"><a href="#axios" class="headerlink" title="axios"></a>axios</h2><ul><li>传参数，有两种，一种是param⇒可以拼接到URL的末尾，作为请求字符串；另一种是data⇒添加到请求体（body）中</li><li>跨域问题的解决，Baidu搜索Vue proxy table即可，配置文件<figure class="highlight plain"><figcaption><span>&#123;</span></figcaption><table><tr><td class="code"><pre><code class="hljs proxyTable:">&#x2F;&#x2F; 这里配置 &#39;&#x2F;api&#39; 就等价于 target , 你在链接里访问 &#x2F;api &#x3D;&#x3D;&#x3D; http:&#x2F;&#x2F;localhost:54321<br>&#39;&#x2F;api&#39;: &#123;<br>  target: &#39;http:&#x2F;&#x2F;localhost:54321&#39;,<br>  &#x2F;&#x2F; secure: true, &#x2F;&#x2F; 如果是 https ,需要开启这个选项<br>  changeOrigin: true, &#x2F;&#x2F; 是否是跨域请求?肯定是啊,不跨域就没有必要配置这个proxyTable了.<br>  pathRewrite: &#123; &#x2F;&#x2F; 重写路径  例如浏览器请求地址http:&#x2F;&#x2F;localhost:12345&#x2F;xxx,实际请求的是你代理的地址：http:xxx&#x2F;11111<br>    &#x2F;&#x2F; 这里是追加链接,比如真是接口里包含了 &#x2F;api,就需要这样配置.<br>　　　　　　&#39;^&#x2F;api&#39;: &#39;&#x2F;api&#39;, &#x2F;&#x2F; 和下边两种写法，因人而异根据需求。<br>　　　　　　&#x2F;&#x2F; 等价于    &#x2F;api + &#x2F;api  &#x3D;&#x3D;  http:&#x2F;&#x2F;localhost:54321&#x2F;api<br>　　　　　　&#x2F;&#x2F; 如果写为 &#39;^&#x2F;api&#39; : &#39;&#x2F;&#39;<br>　　　　　　&#x2F;&#x2F; 等价于   &#x2F;api + &#x2F;  &#x3D;&#x3D;  http:&#x2F;&#x2F;localhost:54321&#x2F;<br>　　　　　　&#x2F;&#x2F; 这里的 &#x2F;api &#x3D;&#x3D;  http:&#x2F;&#x2F;localhost:54321<br> 　　　　&#125;<br>　　&#125;<br></code></pre></td></tr></table></figure></li><li>组件自身递归⇒name属性的用处之一，相当于把自身import<figure class="highlight django"><table><tr><td class="code"><pre><code class="hljs django"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span></span><br><span class="xml">  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"wrapper"</span>&gt;</span></span><br><span class="xml">    <span class="hljs-tag">&lt;<span class="hljs-name">li</span>  <span class="hljs-attr">v-for</span>=<span class="hljs-string">"(item, index) in treeMenu"</span> <span class="hljs-attr">:key</span>=<span class="hljs-string">"index"</span>&gt;</span></span><br><span class="xml">      <span class="hljs-comment">&lt;!-- 对于没有 children 子菜单的 item --&gt;</span></span><br><span class="xml">      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"item-title"</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">"!item.children"</span> &gt;</span>没有子节点</span><span class="hljs-template-variable">&#123;&#123; item.metaTitle &#125;&#125;</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span><br><span class="xml">      <span class="hljs-comment">&lt;!-- 对于有 children 子菜单的 item --&gt;</span></span><br><span class="xml">      <span class="hljs-tag">&lt;<span class="hljs-name">template</span> <span class="hljs-attr">v-else</span>&gt;</span></span><br><span class="xml">        <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>有子节点</span><span class="hljs-template-variable">&#123;&#123; item.metaTitle &#125;&#125;</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></span><br><span class="xml">        <span class="hljs-comment">&lt;!-- 递归操作 --&gt;</span></span><br><span class="xml">        <span class="hljs-tag">&lt;<span class="hljs-name">Tree</span> <span class="hljs-attr">:treeMenu</span>=<span class="hljs-string">"item.children"</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">"toggleShow"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">Tree</span>&gt;</span></span><br><span class="xml">      <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span></span><br><span class="xml">    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span></span><br><span class="xml">  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span></span><br><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span></span><br><br><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span></span><br><span class="xml">export default &#123;</span><br><span class="xml">  name: "Tree",</span><br><span class="xml">  props: &#123;</span><br><span class="xml">    treeMenu: Array,</span><br><span class="xml">  &#125;,</span><br><span class="xml">  data() &#123;</span><br><span class="xml">    return &#123;</span><br><span class="xml">      toggleShow: true, // toggle 状态</span><br><span class="xml">    &#125;;</span><br><span class="xml">  &#125;,</span><br><span class="xml">  methods: &#123;</span><br><span class="xml">    handleToggleShow() &#123;</span><br><span class="xml">      // 处理 toggle 状态的是否展开子菜单 handler 可以添加@click="handleToggleShow"</span><br><span class="xml">      this.toggleShow = !this.toggleShow;</span><br><span class="xml">    &#125;,</span><br><span class="xml">  &#125;,</span><br><span class="xml">&#125;;</span><br><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></span><br></code></pre></td></tr></table></figure><h1 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h1></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Vue&quot;&gt;&lt;a href=&quot;#Vue&quot; class=&quot;headerlink&quot; title=&quot;Vue&quot;&gt;&lt;/a&gt;Vue&lt;/h1&gt;&lt;h2 id=&quot;axios&quot;&gt;&lt;a href=&quot;#axios&quot; class=&quot;headerlink&quot; title=&quot;axios&quot;&gt;&lt;/a&gt;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Vue" scheme="http://yoursite.com/tags/Vue/"/>
+    
+      <category term="Spring" scheme="http://yoursite.com/tags/Spring/"/>
+    
+  </entry>
   
   <entry>
     <title>英文背诵</title>
