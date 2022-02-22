@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2022/02/22/Python%E6%9C%A8%E6%A1%A9/</loc>
+    
+    <lastmod>2022-02-22T15:13:01.360Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2022/02/17/Vue%E5%92%8CSpring%E5%BC%80%E5%8F%91%E7%9A%84tips/</loc>
     
-    <lastmod>2022-02-19T14:09:00.020Z</lastmod>
+    <lastmod>2022-02-20T14:41:07.168Z</lastmod>
     
   </url>
   
@@ -51,13 +58,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/2020/07/13/AR%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99/</loc>
-    
-    <lastmod>2021-08-08T14:24:17.148Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/2021/04/04/Unity%20AR%E6%93%8D%E4%BD%9C%E6%9D%82%E8%B0%88/</loc>
     
     <lastmod>2021-08-08T14:24:02.345Z</lastmod>
@@ -68,13 +68,6 @@
     <loc>http://yoursite.com/2020/01/23/%E9%94%81%E9%BA%9F%E5%9B%8A/</loc>
     
     <lastmod>2021-08-02T04:27:41.671Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2021/06/26/ARKit/</loc>
-    
-    <lastmod>2021-06-26T13:35:53.336Z</lastmod>
     
   </url>
   
